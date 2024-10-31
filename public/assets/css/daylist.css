@@ -1,0 +1,76 @@
+.container {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-snap-stop: always;
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+}
+
+.day-container {
+    scroll-snap-align: center;
+    display: flex;
+    margin: 20px;
+    min-width: 400px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.day-title {
+    font-size: 1.5em;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+}
+
+.episode-card {
+    display: flex;
+    align-items: center;
+    background-color: #7BAAC2;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.episode-link {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.episode-image {
+    width: 50px;
+    height: 50px;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.episode-info {
+    flex: 1;
+}
+
+.episode-title {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.episode-time {
+    font-size: 0.9em;
+    color: #EDEDED;
+}
+
+.add-button {
+    width: 30px;
+    height: 30px;
+    background-color: #4A4A4A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #7BAAC2;
+    cursor: pointer;
+}
